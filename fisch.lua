@@ -1,4 +1,3 @@
-
 -- v1.6
 
 local ProtectPremium = true
@@ -41,13 +40,13 @@ end)
 warn("[Anti Afk] - loaded successfully") 
 
 --<>----<>----<>----< Main Script >----<>----<>----<>--
-print("[Space Hub | Fisch]: loading...")
+print("[Arbix Hub | Fisch]: loading...")
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "Fisch | Space Hub",
+    Title = "Fisch | Arbix Hub",
     SubTitle = "v1.6",
     TabWidth = 150,
     Size = UDim2.fromOffset(600, 400),
@@ -612,10 +611,10 @@ end
 
 do
     local _25ms=Tabs.Home:AddButton({
-        Title = "Copy Discord Invite",
-        Description = "discord.gg/backdoors, join for more leaks",
+        Title = "Copy discord Invite",
+        Description = "discord.gg/84AutgBS4k, join for more leaks",
         Callback = function()
-            setclipboard("https://discord.gg/backdoors")
+            setclipboard("https://discord.gg/84AutgBS4k")
         end
     })
     local section = Tabs.Home:AddSection("Change Log:")
